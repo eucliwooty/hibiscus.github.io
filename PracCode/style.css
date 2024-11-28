@@ -1,0 +1,87 @@
+.alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.container {
+    transition: 0.3s;
+    background-color: #2b2828;
+    color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.containercenter {
+    padding: 5px 10px;
+}
+
+.containercenter h5 {
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    margin-bottom: 75px;
+}
+
+.section {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonOne {
+    padding: 15px 16px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4CAF50;
+    font: inherit;
+    border-radius: 15px;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.buttonOne:hover {
+    color: #000;
+    background-color: #2dcf18;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
+.buttonTwo {
+    padding: 15px 16px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #f44336;
+    font: inherit;
+    border-radius: 15px;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.buttonTwo:hover {
+    color: #000;
+    background-color: #e21111;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.50);
+}
